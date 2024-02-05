@@ -6,8 +6,8 @@
 body{
     height: auto;
     font-family: Arial;
-    font-size: 25px; 
-    line-height: 25px; 
+    font-size: 12px; 
+    line-height: 10px; 
 }
 
 #head {
@@ -17,10 +17,6 @@ body{
 a, a:visited{
     text-decoration: none;
     color: black;
-}
-
-a:hover{
-    text-decoration: underline;
 }
 
 #canvas-container {
@@ -36,8 +32,8 @@ a:hover{
 }
 
 .menu a, .menu h1{
-    font-size: 30px; 
-    line-height: 35px; 
+    font-size: 20px; 
+    line-height: 1; 
     display: inline-block;
 }
 .menu a, .menu p{
@@ -53,26 +49,19 @@ a:hover{
 }
 
 .menu a:hover img.menu-img {
-    display: inline-block; /* Show image on hover */
+    display: inline; /* Show image on hover */
     z-index: 5;
     position: absolute;
 }
 
 .menu a:hover, .menu p:hover {
-    line-height: 400px; /* Adjust the value as needed */
-    font-size: 40px;
-    text-align: right;
-    background-color: black;
+    line-height: 600px; /* Adjust the value as needed */
+    font-size: 60px;
+    text-decoration: underline;
 }
 
 
 
-
-h1{
-    font-family: Arial;
-    font-size: 35px; /* Approximated from 1.8vw */
-    font-weight: normal;
-}
 
 @media only screen and (max-width : 815px) {
     body{
